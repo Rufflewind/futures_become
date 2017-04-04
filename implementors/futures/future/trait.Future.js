@@ -1,0 +1,12 @@
+(function() {var implementors = {};
+implementors["futures"] = [];
+implementors["futures_become"] = ["impl&lt;B:&nbsp;<a class=\"trait\" href=\"futures_become/trait.Becoming.html\" title=\"trait futures_become::Becoming\">Becoming</a> + ?<a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/marker/trait.Sized.html\" title=\"trait core::marker::Sized\">Sized</a>&gt; <a class=\"trait\" href=\"futures/future/trait.Future.html\" title=\"trait futures::future::Future\">Future</a> for <a class=\"struct\" href=\"futures_become/struct.Becomer.html\" title=\"struct futures_become::Becomer\">Becomer</a>&lt;B&gt;",];
+implementors["synchrotron"] = ["impl&lt;'a, T, E&gt; <a class=\"trait\" href=\"futures/future/trait.Future.html\" title=\"trait futures::future::Future\">Future</a> for <a class=\"struct\" href=\"synchrotron/becoming/unsync/struct.Becomer.html\" title=\"struct synchrotron::becoming::unsync::Becomer\">Becomer</a>&lt;'a, T, E&gt;","impl&lt;'a, T, E&gt; <a class=\"trait\" href=\"futures/future/trait.Future.html\" title=\"trait futures::future::Future\">Future</a> for <a class=\"struct\" href=\"synchrotron/becoming/struct.Becomer.html\" title=\"struct synchrotron::becoming::Becomer\">Becomer</a>&lt;'a, T, E&gt;","impl&lt;'a, F:&nbsp;<a class=\"trait\" href=\"futures/future/trait.Future.html\" title=\"trait futures::future::Future\">Future</a> + 'a&gt; <a class=\"trait\" href=\"futures/future/trait.Future.html\" title=\"trait futures::future::Future\">Future</a> for <a class=\"struct\" href=\"synchrotron/struct.SpawnFuture.html\" title=\"struct synchrotron::SpawnFuture\">SpawnFuture</a>&lt;'a, F&gt;","impl&lt;'b, 'a, F:&nbsp;<a class=\"trait\" href=\"futures/future/trait.Future.html\" title=\"trait futures::future::Future\">Future</a>&gt; <a class=\"trait\" href=\"futures/future/trait.Future.html\" title=\"trait futures::future::Future\">Future</a> for <a class=\"struct\" href=\"synchrotron/struct.RunFuture.html\" title=\"struct synchrotron::RunFuture\">RunFuture</a>&lt;'b, 'a, F&gt;","impl&lt;'a&gt; <a class=\"trait\" href=\"futures/future/trait.Future.html\" title=\"trait futures::future::Future\">Future</a> for <a class=\"struct\" href=\"synchrotron/struct.Core.html\" title=\"struct synchrotron::Core\">Core</a>&lt;'a&gt;",];
+
+            if (window.register_implementors) {
+                window.register_implementors(implementors);
+            } else {
+                window.pending_implementors = implementors;
+            }
+        
+})()
