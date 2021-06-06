@@ -1,6 +1,6 @@
 # `futures_become`
 
-[![Travis CI Build Status](https://travis-ci.org/Rufflewind/futures_become.svg?branch=master)](https://travis-ci.org/Rufflewind/futures_become)
+[![Build Status](https://github.com/Rufflewind/futures/actions/workflows/build.yml_become.svg?branch=master)](https://github.com/Rufflewind/futures/actions/workflows/build.yml_become)
 
 [Documentation for the `master` branch](https://rufflewind.com/futures_become)
 
